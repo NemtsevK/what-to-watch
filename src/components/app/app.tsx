@@ -40,7 +40,7 @@ export function App(): JSX.Element {
 
   return (
     <HelmetProvider>
-      <HistoryRouter history={browserHistory}>
+      <HistoryRouter history={browserHistory} basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path={AppRoute.Root} element={<Main/>}/>
           <Route path={`${AppRoute.Film}/:id`} element={<Film/>}/>

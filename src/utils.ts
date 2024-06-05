@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration';
-import { TReview } from '../types/reviews';
+import { TReview } from './types/reviews';
 
 dayjs.extend(duration);
 
