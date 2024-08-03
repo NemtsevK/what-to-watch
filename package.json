@@ -1,8 +1,10 @@
 {
   "name": "what-to-watch",
-  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/nemtsev-k)",
-  "description": "Проект «Что посмотреть» от HTML Academy",
-  "homepage": "https://nemtsev-k.github.io/what-to-watch/",
+  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/NemtsevK)",
+  "description": "Личный проект «Что посмотреть»",
+  "homepage": "https://nemtsevk.github.io/what-to-watch/",
+  "repository": "https://github.com/NemtsevK/what-to-watch/",
+  "private": true,
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -63,5 +65,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "^20.15.1",
+    "npm": "^10.8.2"
   }
 }
